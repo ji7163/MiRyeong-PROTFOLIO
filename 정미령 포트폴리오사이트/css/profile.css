@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+	box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding : 0;
+    font-family: Lato;
+}
+
+
+#logo{
+    display: block;
+    margin-top: 80px;
+    margin-left: 260px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:2;
+}
+
+
+#wrapper {
+	position:relative;
+    min-height:100%;
+}
+
+
+#container{
+	padding-bottom: 230px;
+	margin-left: 430px;
+}
+
+h1{
+	display: block;
+	margin-top: 200px;
+  padding-bottom: 120px;
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1.3em;
+}
+
+
+/*프로필*/
+
+.profile-text{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#profile-name{
+  position: relative;
+  bottom: 290px;
+  left: 230px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 28px;
+
+}
+
+#profile-contents{
+  position: relative;
+  bottom: 290px;
+  left: 230px;
+  text-align: left;
+  margin-left: 30px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+
+
+/*푸터 부분*/
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:80%;
+    height:200px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#footer p{
+  text-align: center;
+}
+
+.head{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+
+.sub{
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+
+.copyright{
+  font-size: 10px;
+  font-weight: 300;
+  color: #616161;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.head2{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin : 0;
+}

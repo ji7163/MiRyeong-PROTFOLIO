@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding : 0;
+    font-family: Lato;
+}
+
+
+#logo{
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+
+.parent{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.first {
+    flex:1.4;
+    width:70%;
+    box-sizing: border-box;
+}
+.second{
+    flex:1;
+    margin-left: 50px;
+    width:30%;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    position:relative;
+    min-height:100%;
+    display: flex;
+}
+
+#header {
+   display: inline-block;
+   text-align: center;
+}
+
+
+#container{
+    padding-bottom: 230px;
+    margin-left: 430px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+h1{
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.3em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.p{
+    padding-top: 20px;
+    line-height: 2em;
+    margin: 0;
+}
+
+
+
+.menu a:hover{
+    color: #F8CD07;
+    text-decoration:none;
+    border-bottom: 2.5px solid #F8CD07;
+    padding-bottom: 5px;
+}
+
+.menu{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-margin{
+    margin-left: 50px;
+}
+
+.click{
+    color: #F8CD07;
+    text-decoration:none;
+    border-bottom: 2.5px solid #F8CD07;
+    padding-bottom: 5px;
+}
+
+
+.contents{
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.text-content h2{
+    margin: 0;
+    margin-top: 100px;
+}
+
+.text-content p{
+    margin: 0;
+}
+
+
+.first{
+    text-align: right;
+}
+
+.first h2{
+    margin: 0;
+    margin-top: 100px;
+}
+
+.first p{
+    margin: 0;
+}
+
+
+/*책*/
+
+.book{
+    margin-right: 50px;
+    filter: drop-shadow(5px 5px 10px #D5D5D5);
+}
+
+
+/*포스터 이미지*/
+.poster-image{
+    filter: drop-shadow(5px 5px 10px #D5D5D5);
+    margin-right: 40px;
+    display: block;
+}
+
+.margin{
+    margin-bottom: 200px;
+}
+
+
+
+.poster-contents{
+    margin-top: 120px;
+}
+
+
+/*푸터 부분*/
+
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 200px;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#footer p{
+  text-align: center;
+}
+
+.head{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+
+.sub{
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+
+.copyright{
+  font-size: 10px;
+  font-weight: 300;
+  color: #616161;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.head2{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin : 0;
+}
