@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PROTFOLIO</title>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header" width="100px">
+            <a href="main.html" id="logo" style="width:140px; height:50px;">
+                <img src="image/logo.png" alt="logo" width="100%">
+            </a>
+        </div>
+
+        <div id="container">
+        <h1>As a designer,<br>
+        remember that everything<br>
+        you design inspires people's lives.
+        </h1>
+
+        <div class="menu"> 
+            <a href="protfolio.html">All</a>
+            <a href="app.html" class="menu-margin">App</a>
+            <a href="EditorialDesign.html" class="menu-margin">Editorial Design</a>
+            <a href="poster.html" class="menu-margin click">Poster</a>
+        </div>
+
+
+
+        <div class="contents">
+            <a href="#">
+                <img src="image/poster/1.png" height="320" align="left" class="poster-image"> 
+            </a>
+            
+            <a href="#">
+                <img src="image/poster/2.png" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/3.png" height="320" align="left" class="poster-image"> 
+            </a>
+        </div>
+
+
+        <div class="contents">
+            <a href="#">
+                <img src="image/poster/4.png" height="320" align="left" class="poster-image"> 
+            </a>
+            <a href="#">
+                <img src="image/poster/5.png" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/6.png" height="320" align="left" class="poster-image"> 
+            </a>
+        </div>
+
+
+        <div class="contents">
+            <a href="#">
+                <img src="image/poster/7.jpg" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/8.png" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/9.png" height="320" align="left" class="poster-image"> 
+            </a>
+        </div>
+
+        <div class="contents margin">
+            <a href="#">
+                <img src="image/poster/10.jpg" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/11.jpg" height="320" align="left" class="poster-image"> 
+            </a>
+
+            <a href="#">
+                <img src="image/poster/12.jpg" height="320" align="left" class="poster-image"> 
+            </a>
+        </div>
+    </div>
+
+    <div id="footer">
+            <hr color="black" width="80%" size="1px">
+            <p class="head">Contact</p>
+            <p class="sub">UX·UI Designer Jeong Mi Ryeong / 010·7765·9946
+                <br>159-25, Toran-gil, Gwangtan-myeon, Paju-si, Gyeonggi-do, Republic of Korea</p>
+            <p class="head2">Design Skill</p>
+            <p class="sub">illustration / Photoshop / XD / After effect / Premiere / Rhinoceros 5 / NX10.0 / KeyShot 7</p>
+            <p class="spot">.<br>.<br>.</p>
+            <p class="copyright">Copyright 2020. (Jeong Mi Ryeong) all rights reserved. All pictures cannot be copied without permission.</p>
+    </div>
+    
+</div>
+
+</body>
+
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding : 0;
+    font-family: Lato;
+}
+
+
+#logo{
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 200px;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+}
+
+#wrapper {
+    position:relative;
+    min-height:100%;
+    display: flex;
+}
+
+#header {
+   display: inline-block;
+   text-align: center;
+}
+
+
+#container{
+    padding-bottom: 230px;
+    margin-left: 430px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+h1{
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.3em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*메뉴부분*/
+
+.menu a:hover{
+    color: #F8CD07;
+    text-decoration:none;
+    border-bottom: 2.5px solid #F8CD07;
+    padding-bottom: 5px;
+}
+
+.menu{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-margin{
+    margin-left: 50px;
+}
+
+.click{
+    color: #F8CD07;
+    text-decoration:none;
+    border-bottom: 2.5px solid #F8CD07;
+    padding-bottom: 5px;
+}
+
+/**/
+
+
+.contents{
+    margin-top: 120px;
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+/*포스터 이미지*/
+.poster-image{
+    filter: drop-shadow(5px 5px 10px #D5D5D5);
+    margin-right: 40px;
+}
+
+.margin{
+    margin-bottom: 200px;
+}
+
+
+
+/*푸터 부분*/
+
+
+#footer p{
+  text-align: center;
+}
+
+.head{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+
+.sub{
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+
+.copyright{
+  font-size: 10px;
+  font-weight: 300;
+  color: #616161;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.head2{
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin : 0;
+}
+
+
+</style>
+
+
+</html>
